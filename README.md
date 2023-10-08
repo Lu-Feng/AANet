@@ -21,5 +21,5 @@ If you find this repo useful for your research, please consider citing the paper
 ```
 
 ## Acknowledgements
-The structure of this repo is based on .[Visual Geo-localization Benchmark].(https://github.com/gmberton/deep-visual-geo-localization-benchmark).
+The structure of this repo is based on [Visual Geo-localization Benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark).
 
