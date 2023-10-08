@@ -1,7 +1,7 @@
 # AANet
 This repository provides the code for ICRA2023 paper "[AANet: Aggregation and Alignment Network with Semi-hard Positive Sample Mining for Hierarchical Place Recognition](https://ieeexplore.ieee.org/abstract/document/10160734)".
 
-The usage of this repo is similar to the [Visual Geo-localization Benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark). You can refer to this Benchmark to prepare datasets.
+The usage of this repo is similar to the [Visual Geo-localization Benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark). You can refer to it to prepare datasets.
 
 ![introduction](images/intro.png)
 ## Training
