@@ -17,9 +17,11 @@ python3 train.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=
 ## Evaluation
 For MSLS
 ```
+python3 eval.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=msls --trunc_te=8 --freeze_te=1 --resume /path/to/your/trained/msls/model/msls.pth
 ```
 For Pitts30k
 ```
+python3 eval.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=pitts30k --trunc_te=8 --freeze_te=1 --resume /path/to/your/trained/pitts30k/model/pitts30k.pth
 ```
 
 ## Trained models
