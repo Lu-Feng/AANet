@@ -1,7 +1,26 @@
 # AANet
 This repository provides the code for ICRA2023 paper "[AANet: Aggregation and Alignment Network with Semi-hard Positive Sample Mining for Hierarchical Place Recognition](https://ieeexplore.ieee.org/abstract/document/10160734)".
 
+The usage of this repo is similar to the [Visual Geo-localization Benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark). You can refer to this Benchmark to prepare datasets.
+
 ![introduction](images/intro.png)
+## Training
+For MSLS
+```
+python3 train.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=msls --queries_per_epoch=40000 --trunc_te=8 --freeze_te=1 --negs_num_per_query=2 --candipositive_global=0.3 --candipositive_local=0.3
+```
+For Pitts30k
+```
+python3 train.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=pitts30k  --trunc_te=8 --freeze_te=1 --negs_num_per_query=2 --horizontal_flip --random_resized_crop=0.3 --candipositive_global=1 --candipositive_local=2 --resume /path/to/your/trained/msls/model/msls.pth
+```
+
+## Evaluation
+For MSLS
+```
+```
+For Pitts30k
+```
+```
 
 ## Trained models
 The model for [MSLS](https://www.dropbox.com/scl/fi/aff148nlmsogs3wucandh/msls.pth?rlkey=4l78pxxock65f11fujomtw27n&dl=0)
