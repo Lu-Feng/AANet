@@ -25,7 +25,7 @@ python3 eval.py --datasets_folder=/path/to/your/datasets/folder --dataset_name=p
 ```
 
 ## Trained models
-The [model](https://www.dropbox.com/scl/fi/aff148nlmsogs3wucandh/msls.pth?rlkey=4l78pxxock65f11fujomtw27n&dl=0) for MSLS.
+The [model](https://www.dropbox.com/scl/fi/tpa7v97ugboh7r6c5wx31/msls.pth?rlkey=zsrlajb27weyhx87az75ybk13&dl=0) for MSLS.
 
 The [model](https://www.dropbox.com/scl/fi/pfetfhhekl1grgh83zhbl/pitts30k.pth?rlkey=nbyij3llw5sy0y2j9cykhp7h0&dl=0) for Pitts30k.
 
