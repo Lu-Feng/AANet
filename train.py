@@ -64,7 +64,7 @@ criterion_triplet = nn.TripletMarginLoss(margin=args.margin, p=2, reduction="sum
 #### Resume model, optimizer, and other training parameters
 if args.resume:
     model, _, best_r1pr5, start_epoch_num, not_improved_num = util.resume_train(args, model, strict=False)
-    logging.info(f"Resuming from epoch {start_epoch_num} with best recall@5 {best_r1pr5:.1f}")
+    logging.info(f"Resuming from epoch {start_epoch_num} with best R@1+R@5 = {best_r1pr5:.1f}")
 else:
     best_r1pr5 = start_epoch_num = not_improved_num = 0
 
